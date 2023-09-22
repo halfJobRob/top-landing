@@ -34,3 +34,27 @@ li a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.hero-right {
+    display: flex;
+}
+
+.hero-left h1 {
+    padding: 0;
+}
+
+.hero-left p {
+    text-align: center;
+}
