@@ -7,7 +7,7 @@
 
 body {
     background-color: lightsteelblue;
-    max-width: 1200px;
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 .header {
     background-color: darkslategray;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 20px;
     margin: auto;
 }
@@ -38,7 +38,7 @@ ul {
     gap: 12px;
 }
 
- ul li.logo {
+ul li.logo {
     color: #ffffff;
     font-size: 24px;
     font-weight: bold;
@@ -70,8 +70,8 @@ li a {
 }
 
 .hero-right img {
-    width: 426px;
-    height: auto;
+    width: 500x;
+    height: 200px
 }
 
 .hero-left h1 {
@@ -80,4 +80,34 @@ li a {
 
 .hero-left p {
     text-align: center;
+}
+
+.info {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info h2 {
+    color: blue;
+    text-align: center;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-box {
+    width: 100px;
+    height: 100px;
+    border: darkred;
+    border-style: solid;
+    border-radius: 12px;
 }
