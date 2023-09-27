@@ -117,3 +117,12 @@ li a {
     border-style: solid;
     border-radius: 12px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h4 {
+    align-self: flex-end;
+}
