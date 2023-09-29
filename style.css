@@ -1,3 +1,11 @@
+:root {
+    --dark-gray: #1f2937;
+    --white-ish: #f9faf8;
+    --white-grey: #e5e7eb;
+    --teal: #87ceeb;
+    --sky-blue: #3882f6;
+}
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
@@ -6,8 +14,8 @@
 }
 
 body {
-    background-color: lightsteelblue;
-    max-width: 1400px;
+    background-color: var(--white-ish);
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,16 +23,16 @@ body {
 }
 
 .header-container {
-    background-color: rgb(125, 186, 186);
+    background-color: var(--dark-gray);
     display: flex;
     justify-content: center;
     width: 100dvw;
 }
 
 .header {
-    background-color: darkslategray;
+    background-color: var(--dark-gray);
     width: 100%;
-    max-width: 1400px;
+    max-width: 1280px;
     padding: 20px;
     margin: auto;
 }
@@ -39,7 +47,7 @@ ul {
 }
 
 ul li.logo {
-    color: #ffffff;
+    color: var(--white-ish);
     font-size: 24px;
     font-weight: bold;
     margin-right: auto;
@@ -53,6 +61,8 @@ li a {
 
 .hero {
     display: flex;
+    background-color: var(--dark-gray);
+    color: var(--white-grey);
 }
 
 .hero-left {
@@ -121,6 +131,8 @@ li a {
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: var(--white-grey);
+    color: var(--dark-gray);
 }
 
 .quote h4 {
@@ -129,4 +141,12 @@ li a {
 
 .action {
     display: flex;
+}
+
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--white-ish);
+    display: flex;
+    width: 100vw;
+    justify-content: center;
 }
