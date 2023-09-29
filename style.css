@@ -126,3 +126,7 @@ li a {
 .quote h4 {
     align-self: flex-end;
 }
+
+.action {
+    display: flex;
+}
