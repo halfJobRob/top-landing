@@ -7,15 +7,15 @@
 }
 
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: var(--white-ish);
-    max-width: 1280px;
+    max-width: 1080px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@ body {
 .header {
     background-color: var(--dark-gray);
     width: 100%;
-    max-width: 1280px;
+    max-width: 1080px;
     padding: 20px;
     margin: auto;
 }
@@ -43,13 +43,13 @@ ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
 }
 
 ul li.logo {
     color: var(--white-ish);
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-right: auto;
 }
 
@@ -57,20 +57,30 @@ li a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 100;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-gray);
+    width: 100dvw;
 }
 
 .hero {
     display: flex;
+    max-width: 1080px;
     background-color: var(--dark-gray);
     color: var(--white-grey);
+    margin: 100px 0;
 }
 
 .hero-left {
     display: flex;
     flex: 50%;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 0 24px;
 }
 
@@ -80,16 +90,30 @@ li a {
 }
 
 .hero-right img {
-    width: 500x;
-    height: 200px
+    width: 100%;
+    height: auto;
 }
 
 .hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
     padding: 0;
 }
 
 .hero-left p {
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
+}
+
+button {
+    background-color: var(--sky-blue);
+    color: var(--white-ish);
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .info {
