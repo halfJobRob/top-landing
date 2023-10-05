@@ -117,46 +117,56 @@ button {
 }
 
 .info {
-    background-color: #ffffff;
+    background-color: var(--white-ish);
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
 .info h2 {
-    color: blue;
+    color: var(--dark-gray);
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 48px 0;
 }
 
 .photo-container {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    margin-bottom: 104px;
 }
 
 .box-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 200px;
+    max-width: 170px;
 }
 
 .box-container p {
     text-align: center;
+    color: #1f2937cf;
+    font-size: 18px;
+    padding: 8px 0;
 }
 
 .photo-box {
-    width: 200px;
-    height: 200px;
-    border: darkred;
+    width: 170px;
+    height: 170px;
+    border: var(--sky-blue);
     border-style: solid;
-    border-radius: 12px;
+    border-radius: 18px;
+    border-width: 4.4px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     background-color: var(--white-grey);
-    color: var(--dark-gray);
+    color: var(--teal);
 }
 
 .quote h4 {
