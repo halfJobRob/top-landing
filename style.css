@@ -162,19 +162,64 @@ button {
     border-width: 4.4px;
 }
 
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-grey);
+    width: 100dvw;
+}
+
 .quote {
     display: flex;
     flex-direction: column;
+    max-width: 1080px;
     background-color: var(--white-grey);
-    color: var(--teal);
+    color: var(--dark-gray);
+    padding: 140px 80px 120px 140px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .quote h4 {
     align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-container {
+    display: flex;
 }
 
 .action {
     display: flex;
+    align-items: center;
+    width: 1080px;
+    background-color: var(--sky-blue);
+    color: var(--white-ish);
+    border-radius: 12px;
+    padding: 42px 100px;
+    margin: 96px 0;
+}
+
+.action-text {
+    margin-right: auto;
+}
+
+.action-text h4 {
+    font-size: 24px;
+}
+
+.action-text {
+    font-size: 18px;
+}
+
+.action button {
+    border-style: solid;
+    border-color: var(--white-ish);
 }
 
 .footer {
@@ -183,4 +228,7 @@ button {
     display: flex;
     width: 100vw;
     justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 42px 0;
 }
